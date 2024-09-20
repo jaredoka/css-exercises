@@ -1,10 +1,10 @@
 .odd {
-    background-color: pink;
-    font-family: Verdana, Dejavu Sans, sans-serif;
+    background-color: rgb(255, 192, 203);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
 }
 
 #second {
-    color: blue;
+    color: #0000ff;
     font-size: 36px;
 }
 
@@ -13,7 +13,8 @@
 }
 
 #fourth {
-    background-color: lightgreen;
-    font-size: 24px;
+    background-color: hsl(120, 73%, 75%);
     font-weight: 700;
 }
+
+<!-- for the fourth element, did not add font-size whilst add "oddfont24" class to the selector to reduce duplicate code -->
